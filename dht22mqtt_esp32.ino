@@ -11,6 +11,7 @@
 
 #define DHTPIN 4     
 #define DHTTYPE DHT22  
+#define LED_BUILTIN 2
 
 DHT dht(DHTPIN, DHTTYPE);
 WiFiClient espClient;
